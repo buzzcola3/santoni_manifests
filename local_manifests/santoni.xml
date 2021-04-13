@@ -5,7 +5,7 @@
 remote="github" revision="11.0" />
  <project name="crdroidandroid/android_vendor_xiaomi_santoni" path="vendor/xiaomi/"
 remote="github" revision="11.0" />
-<project name="jabiyeff/msm-4.9-santoni-kud" path="kernel/xiaomi/msm8937"
+<project name="crdroidandroid/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937"
 remote="github" revision="11.0" />
 <project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-7141649" path="prebuilts/clang/host/linux-x86/clang-7141649"
 remote="github" revision="11.0" />
