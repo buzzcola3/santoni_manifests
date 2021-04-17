@@ -8,7 +8,7 @@ modified repo manifests for POSP santoni
 6. brunch potato_santoni-userdebug
 7. enjoy
 
-ROM changelog (mostly same as crDroid):
+ROM changelog (mostly same as crDroid, made by Jabieff):
 ===== 2021.04.15 =====
 - Merged April patch
 - Updated blobs from LA.UM.9.6.2.r1-04100-89xx.0
