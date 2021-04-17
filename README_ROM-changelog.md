@@ -1,7 +1,7 @@
 # santoni_manifests
 modified repo manifests for POSP santoni
-1. repo init <POSP>
-2. repo sync <POSP>
+1. repo init -POSP sources-
+2. repo sync -POSP sources-
 3. replace included files in .repo with these files
 4. repo sync again
 5. . build/envsetup.sh
