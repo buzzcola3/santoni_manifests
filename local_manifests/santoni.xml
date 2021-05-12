@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <project name="buzzcola3/android_device_xiaomi_santoni" path="device/xiaomi/santoni" 
-remote="github" revision="11.0" />
- <project name="crdroidandroid/android_vendor_xiaomi_santoni" path="vendor/xiaomi/"
-remote="github" revision="11.0" />
-<project name="crdroidandroid/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937"
-remote="github" revision="11.0" />
-<project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-7141649" path="prebuilts/clang/host/linux-x86/clang-7141649"
-remote="github" revision="11.0" />
+<project name="buzzcola3/android_device_xiaomi_santoni" path="device/xiaomi/santoni" remote="github" revision="11.0" />
+<project name="crdroidandroid/android_vendor_xiaomi_santoni" path="vendor/xiaomi/" remote="github" revision="11.0" />
+<project name="crdroidandroid/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="11.0" />
 
+<project path="hardware/qcom-caf/msm8996/audio" name="Jabiyeff-Project/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="11.0" />
+<project path="hardware/qcom-caf/msm8996/display" name="Jabiyeff-Project/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="11.0" />
+<project path="hardware/qcom-caf/msm8996/media" name="Jabiyeff-Project/android_hardware_qcom_media" groups="qcom" remote="github" revision="11.0" />
 
 </manifest>
