@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<project name="buzzcola3/android_device_xiaomi_santoni" path="device/xiaomi/santoni" remote="github" revision="11.0" />
-<project name="crdroidandroid/android_vendor_xiaomi_santoni" path="vendor/xiaomi/" remote="github" revision="11.0" />
-<project name="crdroidandroid/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="11.0" />
+  <remote name="hals" fetch="https://github.com/Jabiyeff-Project/" revision="refs/heads/santoni-11" />
+  <remote name="santoni" fetch="https://github.com/Jabiyeff-Project/" revision="refs/heads/11.0" />
+  <remote name="github2" fetch="https://github.com/" />
 
-<project path="hardware/qcom-caf/msm8996/audio" name="Jabiyeff-Project/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="11.0" />
-<project path="hardware/qcom-caf/msm8996/display" name="Jabiyeff-Project/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="11.0" />
-<project path="hardware/qcom-caf/msm8996/media" name="Jabiyeff-Project/android_hardware_qcom_media" groups="qcom" remote="github" revision="11.0" />
+  <!-- Special -->
+  <project path="device/xiaomi/santoni" name="device-santoni" remote="santoni" />
+  <project path="vendor/xiaomi" name="vendor-santoni" remote="santoni" />
+  <project path="kernel/xiaomi/santoni" name="kernel-santoni" remote="santoni" />
+
+  <!-- Hals -->
+  <project path="hardware/qcom-caf/msm8937/audio" name="android_hardware_qcom_audio" remote="hals" />
+  <project path="hardware/qcom-caf/msm8937/display" name="android_hardware_qcom_display" remote="hals" />
+  <project path="hardware/qcom-caf/msm8937/media" name="android_hardware_qcom_media" remote="hals" />
+  <project path="hardware/qcom-caf/common2" name="android_hardware_qcom-caf_common" remote="hals" >
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8937/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8937/Android.mk" />
+  </project>
+
+  <!-- Proton Clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github2" revision="master" clone-depth="1" />
 
 </manifest>
