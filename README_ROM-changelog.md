@@ -9,6 +9,7 @@ modified repo manifests for POSP santoni
 7. enjoy
 
 ROM changelog (same as crDroid, made by Jabieff):
+
 ===== 2021.05.20 =====
 - Updated blobs from LA.UM.9.6.2.r1-04200-89xx.0
 - Updated more QMI blobs from LA.UM.9.6.2.r1-04200-89xx.0
