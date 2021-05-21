@@ -8,7 +8,20 @@ modified repo manifests for POSP santoni
 6. brunch potato_santoni-userdebug
 7. enjoy
 
-ROM changelog (mostly same as crDroid, made by Jabieff):
+ROM changelog (same as crDroid, made by Jabieff):
+===== 2021.05.20 =====
+- Updated blobs from LA.UM.9.6.2.r1-04200-89xx.0
+- Updated more QMI blobs from LA.UM.9.6.2.r1-04200-89xx.0
+- Updated Mapper & Allocator from LA.UM.9.6.3.r1-01700-89xx.0
+- Added sound gain control feature (Settings/Sound)
+- Increased incall volume level
+- Selinux: Address denials
+- Kernel: 4.9.268 - LA.UM.9.6.2.r1-04200-89xx.0 (clang 12.0.5)
+- Reverted back Mapper and Allocator from LA.UM.9.6.2.r1-04600-89xx.0
+- Reverted back GPS blobs from LA.UM.9.6.2.r1-04100-89xx.0
+- Fixed HAL3 front camera issue
+- Misc. Fixes and Improvements
+
 ===== 2021.04.15 =====
 - Merged April patch
 - Updated blobs from LA.UM.9.6.2.r1-04100-89xx.0
