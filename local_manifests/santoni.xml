@@ -4,16 +4,16 @@
   <!-- Main -->
   <project remote="github" name="crdroidandroid/android_device_xiaomi_santoni" revision="11.0" path="device/xiaomi/santoni" />
   <project remote="github" name="crdroidandroid/android_vendor_xiaomi_santoni" revision="11.0" path="vendor/xiaomi"         />
-  <project remote="github" name="crdroidandroid/android_kernel_xiaomi_msm8937" revision="11.0" path="kernel/xiaomi/santoni" />
+  <project remote="github" name="crdroidandroid/android_kernel_xiaomi_msm8937" revision="11.0" path="kernel/xiaomi/msm8937" />
 
   <!-- Hals -->
   <project remote="github" name="Jabiyeff-Project/android_hardware_qcom_audio"      revision="santoni-11" path="hardware/qcom-caf/msm8937/audio"   />
   <project remote="github" name="Jabiyeff-Project/android_hardware_qcom_display"    revision="11.0-9.6,3" path="hardware/qcom-caf/msm8937/display" />
   <project remote="github" name="Jabiyeff-Project/android_hardware_qcom_media"      revision="santoni-11" path="hardware/qcom-caf/msm8937/media"   />
   <project remote="github" name="Jabiyeff-Project/android_hardware_qcom-caf_common" revision="santoni-11" path="hardware/qcom-caf/common2"         >
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8937/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8937/Android.mk" />
-  </project>
+<!-- <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8937/Android.bp" /> -->
+<!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8937/Android.mk" /> -->
+<!-- </project> -->
 
   <!-- Proton Clang -->
   <project remote="github" name="kdrag0n/proton-clang" revision="master" path="prebuilts/clang/host/linux-x86/clang-proton" clone-depth="1" />
